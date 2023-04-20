@@ -1,0 +1,59 @@
+.center .inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 100%;
+    position: relative;
+}
+.center{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    width: 100%;
+}
+.center .numbers{
+    position: absolute;
+    left: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+}
+.center .numbers button{
+    font-size: 100%;
+    opacity: 50%;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    opacity:20%;
+}
+.center .inner .box{
+    width: 35%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.main-cont{
+    height: 100%;
+}
+#colored{
+    opacity: 100% !important;
+}
+.center .box .box-inner{
+    width: 100%;
+}
+    .box .box-inner img{
+        width: 100%;
+    }
+    
